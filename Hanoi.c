@@ -11,7 +11,7 @@ void hanoi(int n,char x,char y,char z){
 int main()
 {
 	int n;
-	printf("please input the number of Hanoi:");
+	printf("please input the number of floor of Hanoi:");
 	scanf("%d",&n);
 	hanoi(n,'X','Y','Z');
 	return 0;
